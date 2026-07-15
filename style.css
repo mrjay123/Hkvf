@@ -1,0 +1,55 @@
+/* ==========================================
+   GLOBAL STYLES
+   ========================================== */
+body {
+    background-color: #0f172a; 
+    background-image: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+/* ==========================================
+   GLASSMORPHISM CARD
+   ========================================== */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* ==========================================
+   GLOWING BUTTON
+   ========================================== */
+.glow-btn {
+    background: linear-gradient(45deg, #0d6efd, #0dcaf0);
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.4);
+}
+
+.glow-btn:hover {
+    transform: translateY(-2px); 
+    box-shadow: 0 8px 25px rgba(13, 110, 253, 0.6); 
+    background: linear-gradient(45deg, #0b5ed7, #0bacce);
+}
+
+/* ==========================================
+   QR CODE IMAGE
+   ========================================== */
+.qr-code {
+    border: 10px solid white;
+    border-radius: 15px;
+    max-width: 250px; 
+    margin: 0 auto;
+}
+
+/* ==========================================
+   LOADING ANIMATION
+   ========================================== */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: #0dcaf0;
+}
